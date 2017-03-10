@@ -1,0 +1,13 @@
+Web Tripwire Toolkit - Changelog
+
+Version 0.5, 1/14/2008
+ - Simplified the process of adding a tripwire.  Now requires only
+   a one line change to the target page.
+
+Version 0.4, 11/10/2007
+ - Switched to a modified BSD license.
+
+Version 0.3, 10/29/2007
+ - Switched to an Evaluation License.
+ - Initial public version.
+

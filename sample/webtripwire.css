@@ -1,0 +1,17 @@
+/* Animated Information Bar- by JavaScript Kit (www.javascriptkit.com) */
+
+#webtripwirebar{
+position: fixed;
+left: 0;
+width: 100%;
+text-indent: 5px;
+padding: 5px 0;
+background-color: lightyellow;
+border-bottom: 1px solid black;
+font: bold 12px Verdana;
+}
+
+* html #webtripwirebar{ /*IE6 hack*/
+position: absolute;
+width: expression(document.compatMode=="CSS1Compat"? document.documentElement.clientWidth+"px" : body.clientWidth+"px");
+}
